@@ -13,6 +13,84 @@ The game features:
 - A score counter to track how many times the bunny catches the carrot
 
 The goal is to expose kids to coding in a fun and engaging way, while also encouraging them to think creatively and make their own modifications to the game.
+---
+### How to Install Python: A Beginner's Guide
+
+If you're new to coding, the first step is to install Python on your computer. Python is the programming language used to create the Bunny Game. Follow these simple steps to get started:
+
+---
+
+### Step 1: Download Python
+1. Open your web browser and go to the official Python website: [https://www.python.org](https://www.python.org).
+2. Click on the **Download Python** button. The website will automatically suggest the right version for your operating system (Windows, macOS, or Linux).
+
+---
+
+### Step 2: Install Python
+#### For Windows:
+1. Open the downloaded file (e.g., `python-3.x.x.exe`).
+2. Check the box **Add Python to PATH** (this is very important!).
+3. Click **Install Now** and wait for the installation to complete.
+4. Once installed, click **Close**.
+
+#### For macOS:
+1. Open the downloaded `.pkg` file.
+2. Follow the prompts to install Python on your system.
+3. Once installed, Python will be available in your Applications folder or through the terminal.
+
+#### For Linux:
+1. Most Linux distributions come with Python pre-installed. You can check by opening a terminal and typing:
+   ```bash
+   python3 --version
+   ```
+2. If Python is not installed, use your package manager to install it. For example:
+   ```bash
+   sudo apt-get install python3
+   ```
+
+---
+
+### Step 3: Verify the Installation
+To ensure Python is installed correctly:
+1. Open a terminal or command prompt:
+   - On Windows: Press `Win + R`, type `cmd`, and press Enter.
+   - On macOS/Linux: Open the Terminal app.
+2. Type the following command and press Enter:
+   ```bash
+   python --version
+   ```
+   or
+   ```bash
+   python3 --version
+   ```
+3. You should see a version number (e.g., `Python 3.x.x`). This confirms Python is installed.
+
+---
+
+### Step 4: Install a Code Editor (Optional)
+While Python can be written and run in a terminal, using a code editor makes things easier. Here are two beginner-friendly options:
+1. **Thonny**:
+   - A simple Python IDE designed for beginners.
+   - Download it from [https://thonny.org](https://thonny.org).
+2. **VS Code**:
+   - A powerful code editor with Python support.
+   - Download it from [https://code.visualstudio.com](https://code.visualstudio.com).
+
+---
+
+### Step 5: Install Required Libraries
+For the Bunny Game, you’ll need the `Pillow` library. Once Python is installed, open a terminal or command prompt and type:
+```bash
+pip install pillow
+```
+
+---
+
+### You're Ready to Code!
+With Python installed, you can now run the Bunny Game and explore coding. Follow the instructions in this guide to set up the game and have fun learning! 🚀
+
+---
+
 
 ---
 ### Required Python Libraries
