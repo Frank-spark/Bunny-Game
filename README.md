@@ -217,8 +217,6 @@ This will run the `bunny.py` script, and the game window should open.
 
 ---
 
-### You're Ready to Play!
-Now that everything is set up, you can run the Bunny Game and start coding. Encourage your kids to explore the folder structure and understand how the files work together—it’s a great introduction to organizing projects! 🚀
 ---
 
 ## How the Game Works
