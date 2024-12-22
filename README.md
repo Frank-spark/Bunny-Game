@@ -15,6 +15,45 @@ The game features:
 The goal is to expose kids to coding in a fun and engaging way, while also encouraging them to think creatively and make their own modifications to the game.
 
 ---
+### Required Python Libraries
+
+Before running the game, make sure you have the following Python libraries installed. These libraries are necessary for the game to work correctly:
+
+1. **Tkinter** (Built-in with Python)
+   - Tkinter is the standard GUI library included with Python. It is used to create the game window and handle user interactions.
+   - You don't need to install it separately if you have Python installed. However, on some Linux distributions, you may need to install it using your package manager:
+     ```bash
+     sudo apt-get install python3-tk
+     ```
+
+2. **Pillow** (PIL - Python Imaging Library)
+   - Pillow is used to handle the bunny and carrot images in the game.
+   - Install it using `pip`:
+     ```bash
+     pip install pillow
+     ```
+
+### Installation Instructions
+1. Open a terminal or command prompt.
+2. Run the following command to ensure `Pillow` is installed:
+   ```bash
+   pip install pillow
+   ```
+3. If you're using Linux and encounter issues with Tkinter, install it using your package manager as shown above.
+
+### Verifying the Installation
+To verify the required libraries are installed, try running the following Python script:
+
+```python
+import tkinter
+from PIL import Image, ImageTk
+
+print("Tkinter and Pillow are installed correctly!")
+```
+
+If no errors appear, you're good to go! If there are errors, double-check the installation steps above.
+
+---
 
 ## How the Game Works
 1. The **bunny** starts at the center of the screen and is controlled using the arrow keys (Up, Down, Left, Right).
