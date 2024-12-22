@@ -74,13 +74,26 @@ To ensure Python is installed correctly:
 ---
 
 ### Step 4: Install a Code Editor (Optional)
-While Python can be written and run in a terminal, using a code editor makes things easier. Here are two beginner-friendly options:
+
+While Python can be written and run in a terminal, using a code editor makes things easier. Code editors provide features like syntax highlighting, error checking, and file organization, making it simpler to write and debug your code. Here are some beginner-friendly options:
+
 1. **Thonny**:
    - A simple Python IDE designed for beginners.
-   - Download it from [https://thonny.org](https://thonny.org).
+   - It has an easy-to-use interface with built-in support for running Python code.
+   - [Download Thonny](https://thonny.org).
+
 2. **VS Code**:
-   - A powerful code editor with Python support.
-   - Download it from [https://code.visualstudio.com](https://code.visualstudio.com).
+   - A powerful, flexible code editor with excellent Python support.
+   - Includes features like extensions, debugging tools, and Git integration.
+   - [Download VS Code](https://code.visualstudio.com).
+
+3. **Notepad++** (My Personal Recommendation):
+   - I personally use **Notepad++** for its simplicity and ease of use.
+   - It’s free, lightweight, and supports many programming languages, including Python.
+   - Perfect for beginners who want a straightforward editor without extra complexity.
+   - [Download Notepad++](https://notepad-plus-plus.org/).
+
+Whichever editor you choose, the important thing is to find one that feels comfortable for you. For this Bunny Game project, even the most basic editor will work fine. Start with what you’re most comfortable using! 
 
 ---
 
