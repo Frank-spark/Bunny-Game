@@ -91,6 +91,60 @@ The carrot moves in a random direction every second using the `move_carrot_rando
 ```python
 self.root.after(1000, self.move_carrot_randomly)
 ```
+### Understanding `random` and `randint` in the Bunny Game
+
+The **`random`** module in Python is used to introduce randomness into the game. This makes the game more dynamic and fun by ensuring the carrot moves unpredictably. Here's how the `random` module, particularly the `randint` function, is used in the Bunny Game:
+
+#### What is `random.randint`?
+The `random.randint(a, b)` function generates a random integer between the values `a` and `b`, inclusive. For example:
+```python
+import random
+print(random.randint(1, 10))  # Outputs a random integer between 1 and 10
+```
+
+#### How `random.randint` is Used in the Bunny Game
+1. **Random Initial Carrot Position**:
+   - When the game starts, the carrot is placed at a random position on the canvas using `random.randint` to generate x and y coordinates.
+   - Example from the code:
+     ```python
+     self.carrot_x = random.randint(50, 450)
+     self.carrot_y = random.randint(50, 450)
+     ```
+     This ensures the carrot starts somewhere within the canvas but not too close to the edges.
+
+2. **Carrot Movement in Random Directions**:
+   - The carrot moves randomly every second to avoid the bunny. The movement is determined by adding a random step (either -10, 0, or 10) to its current x and y coordinates:
+     ```python
+     dx = random.choice([-10, 0, 10])  # Random step in x direction
+     dy = random.choice([-10, 0, 10])  # Random step in y direction
+     ```
+   - The random step is applied to both x and y coordinates, causing the carrot to move up, down, left, right, or stay in place.
+
+3. **Resetting the Carrot's Position**:
+   - When the bunny catches the carrot, `random.randint` is used again to place the carrot at a new random location:
+     ```python
+     self.carrot_x = random.randint(50, 450)
+     self.carrot_y = random.randint(50, 450)
+     ```
+
+#### Why Use `random`?
+Randomness makes the game more engaging and unpredictable, as the player cannot anticipate where the carrot will move next. It also introduces variety, making each game session unique.
+
+---
+
+### Experimenting with `random` in the Game
+Encourage kids to modify the code and observe the effects:
+1. **Change the Range**:
+   - What happens if the range of `random.randint` is reduced (e.g., `random.randint(100, 400)`)?
+   - Try adjusting the step size in the random movement.
+
+2. **Use Other `random` Functions**:
+   - Replace `random.choice([-10, 0, 10])` with `random.uniform(-10, 10)` for smoother movements.
+
+3. **Add Random Obstacles**:
+   - Use `random.randint` to generate random positions for obstacles and add them to the canvas.
+
+Understanding and experimenting with `random` will help kids learn how to use randomness in programming to create exciting features in their projects!
 
 ### 4. **Collision Detection**
 When the bunny gets close to the carrot (distance < 20), the `check_collision` method moves the carrot to a new random position and updates the score.
