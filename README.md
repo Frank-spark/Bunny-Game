@@ -9,7 +9,7 @@
 
 This project is a simple Python game designed as a learning exercise for kids to explore the basics of coding. It uses the Tkinter library for creating graphical user interfaces (GUIs) and introduces concepts like event handling, random movements, and collision detection.
 
-The Bunny Game was born out of a desire to share my love of coding with my kids. They were always asking, *"What do you mean when you say you're codeing?"* It was hard to explain my work in a way they could understand, so one day, I decided to make it fun and relatable. I said, *"Let’s make a game, and I’ll show you what code is and how you can bring your ideas to life."*
+The Bunny Game was born out of a desire to help my kids understand part of what I do at work. They were always asking, *"What do you mean when you say you're codeing?"* It was hard to explain my work in a way they could understand, so one day, I decided to make it fun and relatable. I said, *"Let’s make a game, and I’ll show you what code is and how you can bring your ideas to life."*
 
 Since my daughter loves bunnies, we decided to create a game featuring a bunny as the main character. It turned out to be an exciting and engaging way for them to learn and see firsthand how coding can transform ideas into something interactive and fun!
 
