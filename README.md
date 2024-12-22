@@ -1,4 +1,4 @@
-Here’s a Markdown document you can use to explain the project as a learning exercise for your kids, with an explanation of the code and encouragement for them to add their own features.
+
 
 ---
 
