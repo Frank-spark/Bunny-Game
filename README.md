@@ -131,6 +131,94 @@ print("Tkinter and Pillow are installed correctly!")
 
 If no errors appear, you're good to go! If there are errors, double-check the installation steps above.
 
+
+### Setting Up the Bunny Game: Ensuring the `.png` Files and Script Are in the Same Folder
+
+To run the Bunny Game correctly, it’s important to ensure the `.png` image files (for the bunny and carrot) and the Python script (`bunny.py`) are stored in the same folder. Here’s how to do it step-by-step:
+
+---
+
+### Step 1: Create a Folder for the Bunny Game
+1. **On Your Desktop**:
+   - Right-click on an empty area of your desktop and select **New > Folder**.
+   - Name the folder something like `BunnyGame`.
+   
+2. **Move Your Files**:
+   - Copy the `bunny.png`, `carrot.png`, and `bunny.py` files into this folder.
+   - You should now have all three files inside the `BunnyGame` folder:
+     ```
+     BunnyGame/
+     ├── bunny.py
+     ├── bunny.png
+     └── carrot.png
+     ```
+
+---
+
+### Step 2: Navigate to the Folder Using Command Prompt (cmd)
+To run the game, you need to use the command prompt to navigate to the folder where your files are stored.
+
+1. **Open the Command Prompt**:
+   - Press `Win + R`, type `cmd`, and hit Enter.
+
+2. **Navigate to the Folder**:
+   - Use the `cd` (change directory) command to navigate to the `BunnyGame` folder on your desktop. Here's how:
+     ```bash
+     cd Desktop\BunnyGame
+     ```
+   - If successful, your command prompt should now show:
+     ```
+     C:\Users\YourUsername\Desktop\BunnyGame>
+     ```
+
+3. **Verify Your Files Are There**:
+   - Type `dir` and press Enter (Windows) or `ls` (Mac/Linux). You should see the following files listed:
+     ```
+     bunny.py
+     bunny.png
+     carrot.png
+     ```
+
+---
+
+### Step 3: Start the Python Game
+Once you're in the correct folder, you can start the game with the following command:
+```bash
+python bunny.py
+```
+This will run the `bunny.py` script, and the game window should open.
+
+---
+
+### Troubleshooting
+- **Error: `'python' is not recognized`**:
+   - This means Python is not added to your system's PATH. During installation, ensure you check the box **Add Python to PATH**. If you missed this step, you may need to reinstall Python or manually add it to PATH.
+   - Alternatively, try using `python3` instead of `python`:
+     ```bash
+     python3 bunny.py
+     ```
+
+- **Error: File Not Found**:
+   - Ensure the `bunny.png` and `carrot.png` files are in the same folder as `bunny.py`. Double-check the file paths and folder location.
+
+---
+
+### Tips for Ease of Use
+1. **Stick to the Desktop**:
+   - Keeping the `BunnyGame` folder on the desktop makes it easier to find and navigate to using `cd`.
+
+2. **Practice Using `cd` Commands**:
+   - `cd ..`: Go back one folder.
+   - `cd folder_name`: Move into a folder.
+   - Use `dir` or `ls` to list the contents of the current folder.
+
+3. **Double-Check Filenames**:
+   - Ensure the filenames are exactly `bunny.py`, `bunny.png`, and `carrot.png`. File extensions matter!
+
+---
+
+### You're Ready to Play!
+Now that everything is set up, you can run the Bunny Game and start coding. Encourage your kids to explore the folder structure and understand how the files work together—it’s a great introduction to organizing projects! 🚀
 ---
 
 ## How the Game Works
